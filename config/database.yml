@@ -1,0 +1,27 @@
+# SQLite. Versions 3.8.0 and up are supported.
+#   gem install sqlite3
+#
+#   Ensure the SQLite 3 gem is defined in your Gemfile
+#   gem "sqlite3"
+#
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: tracker
+  pool: 5
+  username: postgres
+  password: R@ils
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: tracker_test
+  pool: 5
+  username: postgres
+  password: R@ils
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: tracker_prod
+  pool: 5
+  username: postgres
+  password: R@ils

@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  description: MyText
+  project: one
+  assigned_to: one
+  estimated_time: 1
+  due_date: 2024-11-18
+  labels: MyString
+
+two:
+  title: MyString
+  description: MyText
+  project: two
+  assigned_to: two
+  estimated_time: 1
+  due_date: 2024-11-18
+  labels: MyString
